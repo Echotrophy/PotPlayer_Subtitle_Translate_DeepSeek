@@ -5,7 +5,6 @@ PotPlayer 实时字幕翻译插件，基于 DeepSeek V4 API（OpenAI 兼容接�
 ## 特性
 
 - 使用 DeepSeek V4 模型实时翻译字幕（默认 `deepseek-v4-flash`）
-- 自动迁移已停用的旧模型名（`deepseek-chat` / `deepseek-reasoner` → `deepseek-v4-flash`）
 - API 地址支持 Base URL 或完整 URL，自动补全 `/chat/completions`
 - 对 DeepSeek 接口关闭 thinking 模式，翻译更快更稳定
 - 错误信息会直接显示在翻译结果中，便于排查问题
