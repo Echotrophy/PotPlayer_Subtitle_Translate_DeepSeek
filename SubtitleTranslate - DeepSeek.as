@@ -1,29 +1,29 @@
 string GetTitle() {
-    return "{$CP949=DeepSeek 번역$}{$CP950=DeepSeek 翻譯$}{$CP936=DeepSeek 翻译$}{$CP0=DeepSeek Translate$}";
+    return "{$CP936=DeepSeek 翻译$}{$CP0=DeepSeek Translate$}";
 }
 
 string GetVersion() {
-    return "2.1";
+    return "2.2";
 }
 
 string GetDesc() {
-    return "{$CP949=DeepSeek V4를 사용한 실시간 자막 번역$}{$CP950=使用 DeepSeek V4 的實時字幕翻譯$}{$CP936=使用 DeepSeek V4 的实时字幕翻译$}{$CP0=Real-time subtitle translation using DeepSeek V4 API$}";
+    return "{$CP936=使用 DeepSeek V4 的实时字幕翻译$}{$CP0=Real-time subtitle translation using DeepSeek V4 API$}";
 }
 
 string GetLoginTitle() {
-    return "{$CP949=DeepSeek 모델 및 API 키 구성$}{$CP950=DeepSeek 模型與 API 金鑰配置$}{$CP936=DeepSeek 模型与 API 密钥配置$}{$CP0=DeepSeek Model + API URL and API Key Configuration$}";
+    return "{$CP936=DeepSeek 模型与 API 密钥配置$}{$CP0=DeepSeek Model + API URL and API Key Configuration$}";
 }
 
 string GetLoginDesc() {
-    return "{$CP949=모델 이름과 API 주소, 그리고 API 키를 입력하십시오 (예: deepseek-v4-flash|https://api.deepseek.com)$}{$CP950=請輸入模型名稱與 API 地址，以及 API 金鑰（例如: deepseek-v4-flash|https://api.deepseek.com）$}{$CP936=请输入模型名称和 API 地址，以及 API 密钥（例如: deepseek-v4-flash|https://api.deepseek.com）$}{$CP0=Please enter the model name + API URL and provide the API Key (e.g., deepseek-v4-flash|https://api.deepseek.com)$}";
+    return "{$CP936=请输入模型名称和 API 地址，以及 API 密钥（例如: deepseek-v4-flash|https://api.deepseek.com）$}{$CP0=Please enter the model name + API URL and provide the API Key (e.g., deepseek-v4-flash|https://api.deepseek.com)$}";
 }
 
 string GetUserText() {
-    return "{$CP949=모델 이름|API 주소 (현재: " + selected_model + " | " + apiUrl + ")$}{$CP950=模型名稱|API 地址 (目前: " + selected_model + " | " + apiUrl + ")$}{$CP936=模型名称|API 地址 (当前: " + selected_model + " | " + apiUrl + ")$}{$CP0=Model Name|API URL (Current: " + selected_model + " | " + apiUrl + ")$}";
+    return "{$CP936=模型名称|API 地址 (当前: " + selected_model + " | " + apiUrl + ")$}{$CP0=Model Name|API URL (Current: " + selected_model + " | " + apiUrl + ")$}";
 }
 
 string GetPasswordText() {
-    return "{$CP949=API 키:$}{$CP950=API 金鑰:$}{$CP936=API 密钥:$}{$CP0=API Key:$}";
+    return "{$CP936=API 密钥:$}{$CP0=API Key:$}";
 }
 
 string api_key = "";
